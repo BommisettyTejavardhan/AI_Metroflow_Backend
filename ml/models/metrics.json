@@ -1,0 +1,146 @@
+{
+    "demand_model": {
+        "mae": 3.548990385672062,
+        "rmse": 4.472579194031649,
+        "feature_importance": {
+            "From_Station_Code": 0.17890365036854194,
+            "To_Station_Code": 0.17098440637901535,
+            "Distance_km": 0.355703372295628,
+            "DayOfWeek": 0.08201235778893658,
+            "Month": 0.11637690076445818,
+            "IsWeekend": 0.008966798954978957,
+            "Remarks_Code": 0.08705251344844107
+        }
+    },
+    "anomaly_model": {
+        "contamination": 0.05,
+        "mean_decision_score": 0.06703648721029752,
+        "std_decision_score": 0.03815965222104172
+    },
+    "delay_model": {
+        "accuracy": 0.696969696969697,
+        "confusion_matrix": [
+            [
+                1,
+                22
+            ],
+            [
+                8,
+                68
+            ]
+        ],
+        "mae": 8.362812486262698,
+        "rmse": 9.786186920487127,
+        "feature_importance": {
+            "temperature_C": 0.16398179962909165,
+            "humidity_percent": 0.1374412415983691,
+            "wind_speed_kmh": 0.16671818865835666,
+            "precipitation_mm": 0.17085647081718633,
+            "traffic_congestion_index": 0.12599179257954463,
+            "holiday": 0.013162583162805636,
+            "peak_hour": 0.022853422646453125,
+            "weekday": 0.07044796014858881,
+            "weather_code": 0.06178671652717269,
+            "event_code": 0.06675982423243143
+        }
+    },
+    "mappings": {
+        "stations": {
+            "AIIMS": 0,
+            "BARAKHAMBA ROAD": 1,
+            "Barakhamba Road": 2,
+            "CENTRAL SECRETARIAT": 3,
+            "CHANDNI CHOWK": 4,
+            "Central Secretariat": 5,
+            "Chandni Chowk": 6,
+            "DILSHAD GARDEN": 7,
+            "Dilshad Garden": 8,
+            "HAUZ KHAS": 9,
+            "Hauz Khas": 10,
+            "INDERLOK": 11,
+            "Inderlok": 12,
+            "JANAKPURI WEST": 13,
+            "JASOLA VIHAR": 14,
+            "Janakpuri West": 15,
+            "Jasola Vihar": 16,
+            "KALKAJI MANDIR": 17,
+            "KASHMERE GATE": 18,
+            "KIRTI NAGAR": 19,
+            "Kalkaji Mandir": 20,
+            "Kashmere Gate": 21,
+            "Kirti Nagar": 22,
+            "LAXMI NAGAR": 23,
+            "Laxmi Nagar": 24,
+            "MANDI HOUSE": 25,
+            "MODEL TOWN": 26,
+            "Mandi House": 27,
+            "Model Town": 28,
+            "NETAJI SUBHASH PLACE": 29,
+            "NEW DELHI": 30,
+            "NOIDA CITY CENTRE": 31,
+            "Netaji Subhash Place": 32,
+            "New Delhi": 33,
+            "Noida City Centre": 34,
+            "OLD DELHI": 35,
+            "Old Delhi": 36,
+            "PRAGATI MAIDAN": 37,
+            "PUNJABI BAGH": 38,
+            "Pragati Maidan": 39,
+            "Punjabi Bagh": 40,
+            "RAJIV CHOWK": 41,
+            "RAJOURI GARDEN": 42,
+            "Rajiv Chowk": 43,
+            "Rajouri Garden": 44,
+            "SHIVAJI PARK": 45,
+            "Shivaji Park": 46,
+            "aiims": 47,
+            "barakhamba road": 48,
+            "central secretariat": 49,
+            "chandni chowk": 50,
+            "dilshad garden": 51,
+            "hauz khas": 52,
+            "inderlok": 53,
+            "janakpuri west": 54,
+            "jasola vihar": 55,
+            "kalkaji mandir": 56,
+            "kashmere gate": 57,
+            "kirti nagar": 58,
+            "laxmi nagar": 59,
+            "mandi house": 60,
+            "model town": 61,
+            "netaji subhash place": 62,
+            "new delhi": 63,
+            "noida city centre": 64,
+            "old delhi": 65,
+            "pragati maidan": 66,
+            "punjabi bagh": 67,
+            "rajiv chowk": 68,
+            "rajouri garden": 69,
+            "shivaji park": 70
+        },
+        "remarks": {
+            "festival": 0,
+            "maintenance": 1,
+            "normal": 2,
+            "off-peak": 3,
+            "peak": 4,
+            "weekend": 5
+        },
+        "weather": {
+            "Clear": 0,
+            "Cloudy": 1,
+            "Fog": 2,
+            "Rain": 3,
+            "Snow": 4,
+            "Storm": 5
+        },
+        "events": {
+            "Concert": 0,
+            "Festival": 1,
+            "None": 2,
+            "Parade": 3,
+            "Protest": 4,
+            "Sports": 5
+        }
+    }
+}
