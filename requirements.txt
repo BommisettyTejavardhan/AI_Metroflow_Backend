@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+motor
+pymongo
+pydantic
+python-jose[cryptography]
+passlib[bcrypt]
+pandas
+numpy
+scikit-learn
+joblib
+python-multipart
+reportlab
+openpyxl
+pydantic-settings
+google-auth
