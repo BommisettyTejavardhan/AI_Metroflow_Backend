@@ -17,4 +17,6 @@ google-auth
 requests
 email-validator
 websockets
+passlib
+bcrypt==3.2.2
 
