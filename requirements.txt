@@ -16,5 +16,5 @@ pydantic-settings
 google-auth
 requests
 email-validator
-
+websockets
 
